@@ -28,7 +28,7 @@ public class GerenciadorAtividades {
                 System.out.println("Digite seu email:");
                 String email = in.next();
                 
-                System.out.println("Email:" + email);  //-------------------------------------------Teste Apagar
+                System.out.println("Email:" + email);  
 
                 System.out.println("Digite sua senha:");
                 String senha = in.next();
@@ -57,7 +57,7 @@ public class GerenciadorAtividades {
                         
                     }
                     if(opcaoLogin == 2){
-                        usuario.lembretes.get(0).lerLembrete();   //--------------------So para teste, tem que modificar
+                        usuario.lembretes.get(0).lerLembrete(); 
                         
                     }
 
@@ -79,7 +79,6 @@ public class GerenciadorAtividades {
                 System.out.println("Opcao Invalida");
             }
         }
-        //System.out.println("Assunto:" + assunto);  //----------------------------Teste Apagar    
 
     }
     
